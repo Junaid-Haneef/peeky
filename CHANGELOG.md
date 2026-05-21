@@ -1,3 +1,12 @@
+## 0.0.3
+
+* Fix: add missing `0.0.2` entry to CHANGELOG to satisfy pub.dev validation.
+
+## 0.0.2
+
+* Fix: shorten pubspec description to satisfy pub.dev length limit.
+* Fix: add curly braces to all single-statement `if` blocks (lint compliance).
+
 ## 0.0.1
 
 * Initial release.
