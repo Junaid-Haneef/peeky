@@ -1,3 +1,7 @@
+## 0.0.4
+
+* Add screenshots to README showcasing the inspector panel and response detail view.
+
 ## 0.0.3
 
 * Fix: add missing `0.0.2` entry to CHANGELOG to satisfy pub.dev validation.

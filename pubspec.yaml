@@ -2,7 +2,7 @@ name: peeky
 description: >-
   In-app network inspector for Flutter. Captures HTTP and Dio requests in a
   live, searchable panel. Tap or shake to open. Safe for production builds.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/Junaid-Haneef/peeky
 repository: https://github.com/Junaid-Haneef/peeky
 issue_tracker: https://github.com/Junaid-Haneef/peeky/issues

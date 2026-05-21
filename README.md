@@ -4,6 +4,13 @@ An in-app network request inspector for Flutter. Captures every HTTP request and
 
 Works with the [`http`](https://pub.dev/packages/http) package and [Dio](https://pub.dev/packages/dio). Safe to leave in release builds (just set `enabled: false`).
 
+## Screenshots
+
+<p float="left">
+  <img src="https://raw.githubusercontent.com/Junaid-Haneef/peeky/main/assets/inspector_main_panel.png" width="45%" alt="Inspector main panel" />
+  <img src="https://raw.githubusercontent.com/Junaid-Haneef/peeky/main/assets/inspector_response_image.png" width="45%" alt="Request response detail" />
+</p>
+
 ## Features
 
 - Live request/response log with status code, method, URL, headers and body
