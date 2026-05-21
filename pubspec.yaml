@@ -1,8 +1,7 @@
 name: peeky
 description: >-
-  In-app network request inspector for Flutter. Shake to open a live panel
-  showing all HTTP requests, responses, errors and timings. Supports the
-  http package and Dio. Works in release/profile builds — perfect for QA.
+  In-app network inspector for Flutter. Captures HTTP and Dio requests in a
+  live, searchable panel. Tap or shake to open. Safe for production builds.
 version: 0.0.1
 homepage: https://github.com/Junaid-Haneef/peeky
 repository: https://github.com/Junaid-Haneef/peeky

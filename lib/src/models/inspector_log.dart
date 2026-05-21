@@ -36,13 +36,19 @@ class InspectorLog {
       statusCode != null && statusCode! >= 300 && statusCode! < 400;
 
   String get statusLabel {
-    if (isPending) return '...';
-    if (isNetworkError) return 'ERR';
+    if (isPending) {
+      return '...';
+    }
+    if (isNetworkError) {
+      return 'ERR';
+    }
     return statusCode.toString();
   }
 
   String get durationLabel {
-    if (duration == null) return '-';
+    if (duration == null) {
+      return '-';
+    }
     final ms = duration!.inMilliseconds;
     return ms >= 1000 ? '${(ms / 1000).toStringAsFixed(1)}s' : '${ms}ms';
   }

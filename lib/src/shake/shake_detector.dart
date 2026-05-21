@@ -20,7 +20,9 @@ class ShakeDetector {
 
   /// Start listening to [triggerStream], if one was provided.
   void start() {
-    if (kReleaseMode && triggerStream == null) return;
+    if (kReleaseMode && triggerStream == null) {
+      return;
+    }
     _subscription = triggerStream?.listen((_) => onShake(), onError: (_) {});
   }
 

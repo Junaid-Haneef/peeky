@@ -79,7 +79,9 @@ class _PeekyPanelState extends State<PeekyPanel>
     _toastTimer?.cancel();
     setState(() => _toastMsg = msg);
     _toastTimer = Timer(const Duration(seconds: 2), () {
-      if (mounted) setState(() => _toastMsg = null);
+      if (mounted) {
+        setState(() => _toastMsg = null);
+      }
     });
   }
 

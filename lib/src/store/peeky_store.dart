@@ -48,8 +48,9 @@ class PeekyStore {
     Map<String, String> requestHeaders = const {},
     String? requestBody,
   }) {
-    if (!_enabled)
+    if (!_enabled) {
       return InspectorLog(method: method, url: url, requestHeaders: const {});
+    }
     final log = InspectorLog(
       method: method,
       url: url,
@@ -57,7 +58,9 @@ class PeekyStore {
       requestBody: requestBody,
     );
     _logs.add(log);
-    if (_logs.length > _maxSize) _logs.removeAt(0);
+    if (_logs.length > _maxSize) {
+      _logs.removeAt(0);
+    }
     _notifyLogs();
     return log;
   }
@@ -102,7 +105,9 @@ class PeekyStore {
       message: message,
       stackTrace: stack?.toString(),
     ));
-    if (_errors.length > _maxSize) _errors.removeAt(0);
+    if (_errors.length > _maxSize) {
+      _errors.removeAt(0);
+    }
     _errorController.add(errors);
   }
 

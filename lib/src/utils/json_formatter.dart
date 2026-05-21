@@ -8,7 +8,9 @@ class JsonFormatter {
   static const _encoder = JsonEncoder.withIndent('  ');
 
   static String tryFormat(String? input) {
-    if (input == null || input.isEmpty) return '';
+    if (input == null || input.isEmpty) {
+      return '';
+    }
     try {
       return _encoder.convert(jsonDecode(input));
     } catch (_) {
@@ -17,7 +19,9 @@ class JsonFormatter {
   }
 
   static bool looksLikeJson(String? input) {
-    if (input == null || input.isEmpty) return false;
+    if (input == null || input.isEmpty) {
+      return false;
+    }
     final t = input.trimLeft();
     return t.startsWith('{') || t.startsWith('[');
   }
