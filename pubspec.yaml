@@ -4,9 +4,9 @@ description: >-
   showing all HTTP requests, responses, errors and timings. Supports the
   http package and Dio. Works in release/profile builds — perfect for QA.
 version: 0.0.1
-homepage: https://github.com/yourusername/peeky
-repository: https://github.com/yourusername/peeky
-issue_tracker: https://github.com/yourusername/peeky/issues
+homepage: https://github.com/Junaid-Haneef/peeky
+repository: https://github.com/Junaid-Haneef/peeky
+issue_tracker: https://github.com/Junaid-Haneef/peeky/issues
 
 environment:
   sdk: ">=3.0.0 <4.0.0"

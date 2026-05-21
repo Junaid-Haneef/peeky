@@ -98,5 +98,5 @@ Peeky(
 
 ## Additional information
 
-- File bugs and feature requests on the [issue tracker](https://github.com/yourusername/peeky/issues).
-- Pull requests are welcome — see the repository at [github.com/yourusername/peeky](https://github.com/yourusername/peeky).
+- File bugs and feature requests on the [issue tracker](https://github.com/Junaid-Haneef/peeky/issues).
+- Pull requests are welcome — see the repository at [github.com/Junaid-Haneef/peeky](https://github.com/Junaid-Haneef/peeky).
