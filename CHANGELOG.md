@@ -1,3 +1,13 @@
+## 0.0.5
+
+* Redesigned inspector UI with a modern look: card-based request list, segmented pill tabs, color-coded HTTP method and status chips, refreshed search, filters, empty states, and toasts.
+* New collapsible JSON tree view for request/response bodies — expand/collapse any object or array, with expand-all / collapse-all controls and syntax coloring (light & dark).
+* New body view modes: Tree / Pretty / Raw for JSON, Pretty / Raw for XML/HTML.
+* Request detail page now shows a summary card with the full URL (tap the link icon to copy) and status, duration, response size, and time chips; opens on the Response tab by default.
+* Long-press any header row to copy it; header sections show entry counts.
+* Fix: flaky tests — `PeekyStore` is now enabled in test setup.
+* Upgrade locked dependencies (`dio` 5.10.0) and `flutter_lints` to ^6.0.0.
+
 ## 0.0.4
 
 * Add screenshots to README showcasing the inspector panel and response detail view.
