@@ -2,7 +2,11 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:peeky/peeky.dart';
 
 void main() {
-  setUp(PeekyStore.instance.clearLogs);
+  setUp(() {
+    // The store is disabled by default; writes are no-ops until configured.
+    PeekyStore.instance.configure();
+    PeekyStore.instance.clearLogs();
+  });
 
   group('PeekyStore', () {
     test('addRequest returns a pending log', () {

@@ -2,6 +2,9 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:peeky/peeky.dart';
 
 void main() {
+  // The store is disabled by default; writes are no-ops until configured.
+  setUp(PeekyStore.instance.configure);
+
   group('CurlGenerator', () {
     test('generates basic GET', () {
       final log = PeekyStore.instance
