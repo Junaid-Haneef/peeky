@@ -4,6 +4,6 @@
 /// ```dart
 /// dio.interceptors.add(PeekyDioInterceptor());
 /// ```
-library peeky_dio;
+library;
 
 export 'src/clients/peeky_dio_interceptor.dart';

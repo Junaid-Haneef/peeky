@@ -10,7 +10,7 @@
 /// // 2) Use PeekyHttpClient instead of http.Client()
 /// final client = PeekyHttpClient(http.Client());
 /// ```
-library peeky;
+library;
 
 export 'src/models/inspector_log.dart';
 export 'src/store/peeky_store.dart';
